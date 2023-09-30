@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://thymeleaf.com">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+  	<!-- Add Font Awesome -->
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+	
+	
+    <title>Arts Shop</title>
+    
+    <script src="https://kit.fontawesome.com/0faddc1af8.js" crossorigin="anonymous"></script>
+    
+    
+     <style>
+	    .watermark {
+	      position: fixed;
+	      top: 0;
+	      left: 0;
+	      height: 100%;
+	      width: 100%;
+	      z-index: -1;
+	      background-image: url('/images/watermark.jpg');
+	      background-repeat: repeat;
+	      opacity: 0.5;
+	    }
+	    
+	    .icon {
+		    padding-right: 20px; 
+		}
+		
+		.logo{
+			padding-right: 50px; 
+			padding-left: 30px; 
+		}
+		
+     </style>
+  
+  
+  </head>
+  <body>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white logo" href="#">Art & Photography</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-dark bg-light" aria-current="page" href="/"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="available_arts">Available Arts</a>
+        </li>
+      </ul>
+      <div>
+         <a style="color:white" href="my_arts"><i class="fa-solid fa-cart-shopping icon"></i></a>
+      </div>
+      <div>
+       <a class="nav-link text-white" href="art_register">New Art Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <div class="watermark"></div>
+  <div class="container">
+   
+   	<div class="container text-center my-5">
+   		<h1>WELCOME TO ART & PHOTOGRAPHY SHOP</h1>
+   		<b> <h6><br><p>Welcome to Art & Photography Unveiled, where every pixel tells a story, and every brush stroke reveals a world!</p> </b>
+
+<p><b>Our platform stands as a global marketplace celebrating the brilliance of creativity and the artistry of the lens. We are an online art & photography store committed to transforming your living and working spaces into galleries of exquisite beauty.</b></p>
+
+<p><b>Featuring a diverse collection of works from independent artists, photographers, and creative minds worldwide, we offer you a doorway into the heart of the global art scene. Explore a diverse catalog ranging from hand-painted canvases and limited edition prints to breath-taking photographs that freeze time.</b></p>
+
+<b>Our mission is to make art and photography accessible to everyone. By connecting you directly with the creators, we empower you to own a piece of their story, their passion, and their vision. And it's not just about aesthetic appeal - our artworks are investments that appreciate over time.
+
+Navigating our platform is an art tour unto itself. You can discover artwork by style, medium, or theme, or choose to travel by the camera's lens, exploring photographs by genre, location, or color palette. There's something for every taste, every interior, and every budget.
+
+Our bespoke framing service ensures your chosen pieces arrive ready to hang and perfect for your space. Additionally, we offer a world-class customer service experience, with secure online payments and international shipping.</b><br><br
+
+<p><b>Join us on this extraordinary journey, and bring the world of art and photography to your door. It's not just about shopping - it's about experiencing the power of human creativity, one artwork or photograph at a time.</b></p> 
+
+<p><b>Welcome to Art & Photography Unveiled - your wall is a canvas, let us help you paint your masterpiece.</b></p>
+   		</h6>
+   		<br><br><img src="/images/bg.jpg">
+   	</div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    </div>
+    
+    <footer class="text-center text-lg-start bg-dark text-white">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-pinterest"></i>
+      </a>
+    </div>
+  </section>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-palette me-3"></i>Art & Photography
+          </h6>
+          <p>
+            Bringing unique, creative artwork and photography from talented artists worldwide, right to your doorstep.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Categories
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Paintings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Photography</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sculptures</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Drawings</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Your Account</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Become a Seller</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@artandphotography.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Copyright &copy; 2023
+    <a class="text-reset fw-bold" href="https://www.artandphotographyunveiled.com/">Art & Photography</a>
+  </div>
+</footer>
+    
+  
+    
+  </body>
+</html>
